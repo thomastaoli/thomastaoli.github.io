@@ -804,6 +804,42 @@ h6 {
   margin: 0;
 }
 
+.gallery .gallery-item:hover .gallery-links {
+  opacity: 1;
+}
+
+.gallery .gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.gallery .gallery-item .title-overlay {
+  position: absolute;
+  bottom: 10px; /* Positioned at the bottom of the image */
+  left: 10px; /* Start from the left edge */
+  right: 10px; /* Stretch to the right edge */
+  text-align: left; /* Center the text */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  opacity: 1; /* Always visible */
+  z-index: 3; /* Above the image */
+}
+
+/* Adjust the z-index of gallery links to make sure they are above the title */
+.gallery .gallery-links {
+  z-index: 4;
+}
+
+/* Other styles... */
+.glightbox-clean .gslide-description {
+  background: #222425;
+}
+
+.glightbox-clean .gslide-title {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+}
 /*--------------------------------------------------------------
 # Gallery Single Section
 --------------------------------------------------------------*/
