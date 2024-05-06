@@ -8,21 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
   /**
-   * Preloader
-   */
-  const preloader = document.querySelector('#preloader');
-  if (preloader) {
-    window.addEventListener('load', () => {
-      setTimeout(() => {
-        preloader.classList.add('loaded');
-      }, 1000);
-      setTimeout(() => {
-        preloader.remove();
-      }, 2000);
-    });
-  }
-
-  /**
    * Mobile nav toggle
    */
   const mobileNavShow = document.querySelector('.mobile-nav-show');
@@ -108,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
     speed: 600,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 1000,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
@@ -130,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
     speed: 600,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 1000,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
@@ -160,7 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
    */
   function aos_init() {
     AOS.init({
-      duration: 1000,
+      duration: 500,
       easing: 'ease-in-out',
       once: true,
       mirror: false

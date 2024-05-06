@@ -47,14 +47,14 @@
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
       <div class="header-social-links">
-        <a href="https://www.instagram.com/awesomethomaslee/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://github.com/thomastaoli" class="github"><i class="bi bi-github"></i></a>
         <a href="https://www.linkedin.com/in/thomas-li-3325561a2" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.instagram.com/awesomethomaslee/" class="instagram"><i class="bi bi-instagram"></i></a>
       </div>
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
@@ -64,115 +64,305 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade"
-    data-aos-delay="1500">
+    data-aos-delay="100">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6 text-center">
           <h2> <span>Hey there,</span> it's nice to meet you.</h2>
-          <p>My name is Thomas Tao Li (李涛). I'm currently a student at Columbia Graduate School of Journalism majoring
-            in Data Journalism. Prior to Columbia, I gained my Bachelor’s degree in communication from HKBU and interned
+          <p>My name is Thomas Tao Li. I'm currently a student at Columbia Graduate School of Journalism majoring
+            in Data Journalism. Prior to Columbia, I gained my Bachelor's degree in communication from HKBU and interned
             at two news agencies in China, Southern Metropolis Daily and Caixin.</p>
-          <p>In my free time, I enjoy playing the violin, baking, and spending time with my dog. I’m currently learning
-            programming language and data analysis, reading about sociology, and editing my own videos. I'm inspired by
-            people who seek happiness and create joy for each other.</p>
+          <p>This is a collection of my works, ranging from daily local news, business and finance, and human rights
+            stories. I have also done several research projects in media and communication studies, most focused on
+            quantitative approaches and digital media.</p>
           <a href="contact.html" class="btn-get-started">Get in touch</a>
         </div>
       </div>
     </div>
   </section><!-- End Hero Section -->
 
-  <main id="main" data-aos="fade" data-aos-delay="1500">
+  <main id="main" data-aos="fade" data-aos-delay="100">
 
     <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="gallery">
       <div class="container-fluid">
 
-        <div class="row gy-4 justify-content-center">
+        <!--Data Story-->
+        <div class="row gy-4 justify-content-left">
+
+          <h2 style="text-decoration: underline;">Data Story</h2>
           <!-- Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
-            <a href="https://thomastaoli.github.io/article-23/en.html" class="gallery-item h-100 gallery-item-link">
-              <img src="https://raw.githubusercontent.com/thomastaoli/article-23/main/headerbg.png" class="img-fluid"
-                alt="">
-              <div class="title-overlay">When freedom becomes a thing of the past</div>
+            <a href="https://thomastaoli.github.io/CB/" class="gallery-item gallery-item-link">
+              <img src="https://raw.githubusercontent.com/thomastaoli/CB/main/img/file.jpeg" class="img-fluid" alt="">
+              <div class="title-overlay">How much do you know about your community board?</div>
+              <div class="intro-text">I scraped over 1000 documents from a community board, and used OpenAI API to find
+                out what they are talking about.</div>
+              <div class="tools-used">Python/pandas/Playwright/OpenAI/Svelte</div>
               <div class="gallery-links d-flex align-items-center justify-content-center"></div>
             </a>
           </div>
           <!-- End Gallery Item -->
+
           <!-- Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
-            <a href="https://thomastaoli.github.io/ny-food-desert/" class="gallery-item h-100 gallery-item-link">
-              <img src="https://raw.githubusercontent.com/thomastaoli/ny-food-desert/main/header2.jpg" class="img-fluid"
+            <a href="https://thomastaoli.github.io/ny-food-desert/" class="gallery-item gallery-item-link">
+              <img src="assets/img/desert.jpeg" class="img-fluid"
                 alt="">
               <div class="title-overlay">In the Big Apple, it's sometimes hard to find a fresh apple: Food desert in New
-                York City
-              </div>
+                York City</div>
+              <div class="intro-text">After scraping over 400 grocery store locations in NYC, I made a map of where they
+                are, and how food desert influence New Yorkers' health.</div>
+              <div class="tools-used">Python/scraping/Datawrapper/ai2html</div>
               <div class="gallery-links d-flex align-items-center justify-content-center"></div>
             </a>
           </div>
           <!-- End Gallery Item -->
+
           <!-- Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
-            <a href="https://thomastaoli.github.io/dragon-baby/" class="gallery-item h-100 gallery-item-link">
-              <img src="https://raw.githubusercontent.com/thomastaoli/dragon-baby/main/header2.jpg" class="img-fluid"
+            <a href="https://thomastaoli.github.io/dragon-baby/" class="gallery-item gallery-item-link">
+              <img src="assets/img/dragon.jpeg" class="img-fluid"
                 alt="">
               <div class="title-overlay">Why the Year of Dragon brings baby boom?
               </div>
+              <div class="intro-text">There is always a myth in Chinese community about higher birth rate in the Lunar
+                Year of Dragon. But how true is it? This piece is trying to answer this question by digging into
+                the birth datasets over the last two decades across multiple countries.</div>
+              <div class="tools-used">Python/pandas/Flourish</div>
               <div class="gallery-links d-flex align-items-center justify-content-center"></div>
             </a>
           </div>
           <!-- End Gallery Item -->
+
           <!-- Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
-            <a href="https://thomastaoli.github.io/hk-rice-with-two-sides/"
-              class="gallery-item h-100 gallery-item-link">
-              <img src="https://raw.githubusercontent.com/thomastaoli/hk-rice-with-two-sides/main/header2.jpg"
+            <a href="https://thomastaoli.github.io/hk-rice-with-two-sides/" class="gallery-item gallery-item-link">
+              <img src="assets/img/rice.jpeg"
                 class="img-fluid" alt="">
               <div class="title-overlay">Data behind Hong Kong's "Rice with two sides" craze
               </div>
+              <div class="intro-text">I analysed over 400 "two-dish rice" places with economic data in Hong Kong to find
+                out what makes them so popular.</div>
+              <div class="tools-used">Python/pandas/Datawrapper</div>
               <div class="gallery-links d-flex align-items-center justify-content-center"></div>
             </a>
           </div>
           <!-- End Gallery Item -->
+
           <!-- Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
-            <a href="CD.html" class="gallery-item h-100 gallery-item-link">
-              <img src="assets/img/cd.JPG" class="img-fluid" alt="">
-              <div class="title-overlay">China's growing gig economy leaves policymaker a dilemma</div>
-              <div class="gallery-links d-flex align-items-center justify-content-center"></div>
-            </a>
-          </div>
-          <!-- End Gallery Item -->
-          <!-- Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <a href="resilience.html" class="gallery-item h-100 gallery-item-link">
-              <img src="assets/img/covid/virus.jpeg" class="img-fluid" alt="">
-              <div class="title-overlay">Social resilience and COVID-19 recovery: Evidence from 107 countries</div>
-              <div class="gallery-links d-flex align-items-center justify-content-center"></div>
-            </a>
-          </div>
-          <!-- End Gallery Item -->
-          <!-- Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <a href="china-single-mother.html" class="gallery-item h-100 gallery-item-link">
-              <img src="assets/img/wedlock/rarity.jpeg" class="img-fluid" alt="">
-              <div class="title-overlay">Single mothers in China</div>
-              <div class="gallery-links d-flex align-items-center justify-content-center"></div>
-            </a>
-          </div>
-          <!-- End Gallery Item -->
-          <!-- Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <a href="SMD.html" class="gallery-item h-100 gallery-item-link">
-              <img src="assets/img/wheelchair.jpg" class="img-fluid" alt="">
-              <div class="title-overlay">Accessible facilities in Zhuhai - A journalistic investigation (Chinese Only)
+            <a href="https://thomastaoli.github.io/hk-pharmacy-monopoly/" class="gallery-item gallery-item-link">
+              <img src="assets/img/pharmacy/map.jpeg" class="img-fluid" alt="">
+              <div class="title-overlay">How two major retail groups monopolized Hong Kong's pharmacy business
               </div>
+              <div class="intro-text">I scraped the locations of over 500 pharmacies in Hong Kong to show how large
+                groups monopolized the business.</div>
+              <div class="tools-used">Playwright/GeoJSON/Mapbox</div>
+              <div class="gallery-links d-flex align-items-center justify-content-center"></div>
+            </a>
+          </div>
+          <!-- End Gallery Item -->
+
+        </div>
+        <!--End Data Story-->
+
+        <br>
+
+        <!--Features-->
+        <div class="row gy-4 justify-content-left">
+
+          <h2 style="text-decoration: underline;">Features</h2>
+          <!-- Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <a href="https://columbianewsservice.com/2024/05/02/heres-what-happens-if-an-international-student-gets-suspended-for-campus-protest/"
+              class="gallery-item gallery-item-link">
+              <img src="assets/img/nypd.jpg" class="img-fluid" alt="">
+              <div class="title-overlay">Here's What Happens if an International Student Gets Suspended for Campus
+                Protest</div>
+              <div class="intro-text">We interviewed multiple legal experts and student protesters about the possible
+                legal consequence of international students involved in the Columbia Pro-Palestinian protest.</div>
+              <div class="tools-used">Reporting/Canva</div>
+              <div class="gallery-links d-flex align-items-center justify-content-center"></div>
+            </a>
+          </div>
+          <!-- End Gallery Item -->
+          <!-- Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <a href="https://thomastaoli.github.io/article-23/en.html" class="gallery-item gallery-item-link">
+              <img src="https://raw.githubusercontent.com/thomastaoli/article-23/main/headerbg.png" class="img-fluid"
+                alt="">
+              <div class="title-overlay">When freedom becomes a thing of the past</div>
+              <div class="intro-text">An analysis of Hong Kong's latest national security legislation, Article 23, and
+                how if affects city's civil liberties.</div>
+              <div class="tools-used">Scrollytelling/D3</div>
+              <div class="gallery-links d-flex align-items-center justify-content-center"></div>
+            </a>
+          </div>
+          <!-- End Gallery Item -->
+          <!-- Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <a href="https://docs.google.com/document/d/1IXQNWTrA2WUwM7oBJp04lIBWsB5Fi6mjEwU7ayjxxk0/edit?usp=sharing"
+              class="gallery-item gallery-item-link">
+              <img src="assets/img/mta.jpg" class="img-fluid" alt="">
+              <div class="title-overlay">Here's why you should care what type of trains the $5.5 billion IBX will use
+              </div>
+              <div class="intro-text">We reviewed a blueprint of over a thousand pages and talked to multiple experts
+                to reveal a simple fact: light rail doesn't really work for New York City.</div>
+              <div class="tools-used">QGIS/Reporting</div>
+              <div class="gallery-links d-flex align-items-center justify-content-center"></div>
+            </a>
+          </div>
+          <!-- End Gallery Item -->
+          <!-- Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <a href="https://docs.google.com/document/d/1AI560m8XoFc5XMwT7-d-EewHj7c95YGv6Ic3fefCgZY/edit?usp=sharing"
+              class="gallery-item gallery-item-link">
+              <img src="assets/img/bates.jpg" class="img-fluid" alt="">
+              <div class="title-overlay">A girl went missing eight years ago and never came back. Things would be
+                different if it happened today.
+              </div>
+              <div class="intro-text">Stevie Bates went missing in 2012. Her body was found 8 years later. The
+                incompetency of NYPD may have contributed to this tragic consequences.</div>
+              <div class="tools-used">Reporting</div>
+              <div class="gallery-links d-flex align-items-center justify-content-center"></div>
+            </a>
+          </div>
+          <!-- End Gallery Item -->
+          <!-- Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <a href="https://youtu.be/ROeWFraoLGI" class="gallery-item gallery-item-link">
+              <img src="assets/img/NY/Protest3.jpg" class="img-fluid" alt="">
+              <div class="title-overlay">The ugly side of Family Courts in New York
+              </div>
+              <div class="intro-text">I talked to demonstrators outside the Family Court in Albany about how it has
+                become a breeding ground for domestic violenceas, as the judiciary celebrates its 50th anniversary.
+              </div>
+              <div class="tools-used">Reporting/Premiere Pro</div>
+              <div class="gallery-links d-flex align-items-center justify-content-center"></div>
+            </a>
+          </div>
+          <!-- End Gallery Item -->
+
+          <!-- Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <a href="assets/img/wedlock/layout%20copy%20(1930031081).pdf" class="gallery-item gallery-item-link">
+              <img src="assets/img/wedlock/rarity.jpeg" class="img-fluid" alt="">
+              <div class="title-overlay">Single mothers in China
+              </div>
+              <div class="intro-text">Despite a raft of pronatalist policies in recent years, single motherhood still
+                remains a legal grey area in China. I talked to single mothers who had children before
+                marriage to understand their struggles, pains and needs.
+              </div>
+              <div class="tools-used">Reporting/InDesign</div>
+              <div class="gallery-links d-flex align-items-center justify-content-center"></div>
+            </a>
+          </div>
+          <!-- End Gallery Item -->
+
+          <!-- Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <a href="https://m.mp.oeeee.com/special/1511_39ba3939ac93f61edbb6c4c1dfb853f8.html"
+              class="gallery-item gallery-item-link">
+              <img src="assets/img/wheelchair.jpg" class="img-fluid" alt="">
+              <div class="title-overlay">Accessible facilities in Zhuhai (Chinese Only)
+              </div>
+              <div class="intro-text">A detailed research of accessibility in the southern China city of Zhuhai,
+                including interviews with disabled people and local government officials. Awarded as the "Best In-depth
+                Reporting" by city's Journalists Association in 2022.
+              </div>
+              <div class="tools-used">Reporting</div>
               <div class="gallery-links d-flex align-items-center justify-content-center"></div>
             </a>
           </div>
           <!-- End Gallery Item -->
         </div>
+        <!--End Features-->
 
-      </div>
+        <br>
+
+        <!--Business & Financial-->
+        <div class="row gy-4 justify-content-left">
+
+          <h2 style="text-decoration: underline;">Business & Financial</h2>
+
+          <!-- Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <a href="https://www.caixinglobal.com/2022-06-10/analysis-chinas-covid-test-firms-wave-goodbye-to-the-days-of-easy-money-101897680.html"
+              class="gallery-item gallery-item-link">
+              <img src="assets/img/PCR/pcr3.jpeg" class="img-fluid" alt="">
+              <div class="title-overlay">China's PCR test industry waves goodbuye to easy money
+              </div>
+              <div class="intro-text">An analysis of China's PCR test industry, which has been booming since the
+                outbreak of COVID-19, but now faces a downturn as the pandemic eases.
+              </div>
+              <div class="tools-used">Reporting</div>
+              <div class="gallery-links d-flex align-items-center justify-content-center"></div>
+            </a>
+          </div>
+          <!-- End Gallery Item -->
+
+          <!-- Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <a href="https://www.caixinglobal.com/2022-06-23/analysis-bilibilis-loss-widens-as-costs-spiral-101903265.html"
+              class="gallery-item gallery-item-link">
+              <img src="assets/img/bili.jpeg" class="img-fluid" alt="">
+              <div class="title-overlay">Bilibili's loss widens as costs spiral
+              </div>
+              <div class="intro-text">An analysis of financial reports of Nasdaq-listed Bilibili, a Chinese
+                video-sharing platform, which saw a widening loss due to ultra-competitive market and rising costs.
+              </div>
+              <div class="tools-used">Reporting</div>
+              <div class="gallery-links d-flex align-items-center justify-content-center"></div>
+            </a>
+          </div>
+          <!-- End Gallery Item -->
+
+          <!-- Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <a href="https://campus.chinadailyasia.com/en/home/8/winner?id=594" class="gallery-item gallery-item-link">
+              <img src="assets/img/cd.JPG" class="img-fluid" alt="">
+              <div class="title-overlay">China's growing gig economy leaves policymaker a dilemma
+              </div>
+              <div class="intro-text">We talked to gig workers in China and found out what struggles they are facing and
+                the government's dilemma in regulating it. The story was awarded the "Best Business Reporting" by China
+                Daily Campus News Award in 2022.
+              </div>
+              <div class="tools-used">Reporting</div>
+              <div class="gallery-links d-flex align-items-center justify-content-center"></div>
+            </a>
+          </div>
+          <!-- End Gallery Item -->
+
+        </div>
+        <!--End Business & Financial-->
+
+        <br>
+
+        <!--Research-->
+        <div class="row gy-4 justify-content-left">
+
+          <h2 style="text-decoration: underline;">Research</h2>
+
+          <!-- Gallery Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <a href="https://link.springer.com/chapter/10.1007/978-981-19-9993-2_4"
+              class="gallery-item gallery-item-link">
+              <img src="assets/img/covid/virus.jpeg" class="img-fluid" alt="">
+              <div class="title-overlay">Social resilience and COVID-19 recovery: Evidence from 107 countries
+              </div>
+              <div class="intro-text">Drawing on extensive panel data from 107 countries, the study delves into
+                demographic traits, governmental responses, medical services, and resources. Our research uncovers the
+                characteristics that differentiate countries based on their social resilience, offering valuable
+                insights for future policy development.
+              </div>
+              <div class="tools-used">Social Resilience/Random Forest/R</div>
+              <div class="gallery-links d-flex align-items-center justify-content-center"></div>
+            </a>
+            <!-- End Gallery Item -->
+          </div>
+
+        </div>
     </section><!-- End Gallery Section -->
 
   </main><!-- End #main -->
