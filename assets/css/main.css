@@ -622,7 +622,9 @@ h6 {
 }
 
 .gallery-item-link {
-  display: block; /* or inline-block */
+  display: flex; /* or inline-block */
+  flex-direction: column;
+  height: 100%;
   overflow: hidden; /* Ensures content does not overflow */
   border-radius: 10px; /* Ensures the corners are rounded */
   position: relative;
@@ -702,8 +704,9 @@ h6 {
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.8);  /* Dark background for readability */
   color: white;  /* White text color */
-  text-align: center;
-  font-size: 20px;  /* Larger font size for visibility */
+  text-align: left;
+  font-size: 18px;  /* Larger font size for visibility */
+  flex-grow: 2;
 }
 
 /* Introductory text styling */
@@ -720,7 +723,7 @@ h6 {
   background-color: var(--color-primary);  /* Primary color background */
   color: white;  /* White text for contrast */
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   margin-top: auto;  /* Pushes this section to the bottom of the container */
 }
 
@@ -767,7 +770,7 @@ h6 {
   color: rgba(255, 255, 255, 0.8);
   background-color: rgba(0, 0, 0, 0.2);
   font-size: 24px;
-  border-radius: 50%;
+  border-radius: 10%;
   width: 48px;
   height: 48px;
   display: flex;
